@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('我就知道可以的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,48 +9,48 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('嗨鸭', A);
     });
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('讲这些', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('嗨鸭', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('除了嗨鸭', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('还是嗨鸭', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('嗨鸭', F);
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('因为嗨鸭到闷了', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('就转变想法', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('对吧预言家', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('嗨鸭', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('嗨鸭', function() {
         fireworks();
     });
 }
